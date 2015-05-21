@@ -1,0 +1,263 @@
+﻿@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+a {
+  outline: none;
+}
+body {
+  background: rgba(24, 32, 40, 0.8);
+}
+.global-select {
+  float: left;
+  width: 100%;
+  font-size: 12px;
+  padding: 12px;
+  padding-left: 0px;
+  text-transform: uppercase;
+  font-weight: 700;
+  -webkit-appearance: none;
+  margin-bottom: 0px auto;
+  height: 45px;
+  border: 0px;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  color: white;
+  font-family: 'Tahoma';
+}
+.global-select option {
+  color: white;
+  background: rgba(24, 32, 40, 0.8);
+  font-size: 16px;
+  font-family: 'Tahoma';
+  font-weight: 700;
+}
+.global-select:focus {
+  outline: none;
+}
+.global-btn {
+  display: block;
+  clear: both;
+  margin: 0 auto;
+  width: 30%;
+  border-radius: 0px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 16x;
+  font-weight: 700;
+  -webkit-box-shadow: inset 0 0 63px -25px rgba(255, 255, 255, 0.6);
+  -moz-box-shadow: inset 0 0 63px -25px rgba(255, 255, 255, 0.6);
+  box-shadow: inset 0 0 63px -25px rgba(255, 255, 255, 0.6);
+  letter-spacing: 1px;
+  -webkit-appearance: none;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.global-btn:hover {
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+.global-btn.blue {
+  background-color: rgba(35, 131, 173, 0.35);
+}
+.global-btn.blue:hover {
+  background-color: rgba(35, 131, 173, 0.55);
+  color: white;
+}
+.global-btn.blue:focus {
+  text-decoration: none;
+  color: white;
+}
+.global-btn.green {
+  background-color: rgba(75, 191, 62, 0.35);
+}
+.global-btn.green:hover {
+  background-color: rgba(75, 191, 62, 0.55);
+  color: white;
+}
+.global-btn.green:focus {
+  text-decoration: none;
+  color: white;
+}
+.global-after {
+  width: 35px;
+  height: 10px;
+  position: absolute;
+  bottom: 31px;
+  right: 2px;
+  padding: 15px 0 0;
+  pointer-events: none;
+  font-family: 'FontAwesome';
+  font-size: 14px;
+  content: "\f078";
+  color: white;
+  background: transparent;
+  z-index: 1;
+  -webkit-appearance: none;
+}
+.navbar.navbar-default {
+  border-radius: 0px;
+  border: 0px;
+  background: rgba(24, 32, 40, 0.7);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.navbar.navbar-default .navigation {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.navbar.navbar-default a,
+.navbar.navbar-default ul a {
+  color: white;
+}
+.navbar.navbar-default ul li:hover a,
+.navbar.navbar-default ul li:focus a {
+  background: white;
+  color: #333;
+}
+.wrapper-selects {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+  padding: 50px 30px;
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0 0 63px -25px rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.wrapper-selects .global-field {
+  margin-bottom: 40px;
+}
+.wrapper-selects .global-field select {
+  float: left;
+  width: 100%;
+  font-size: 12px;
+  padding: 12px;
+  padding-left: 0px;
+  text-transform: uppercase;
+  font-weight: 700;
+  -webkit-appearance: none;
+  margin-bottom: 0px auto;
+  height: 45px;
+  border: 0px;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  color: white;
+  font-family: 'Tahoma';
+}
+.wrapper-selects .global-field select option {
+  color: white;
+  background: rgba(24, 32, 40, 0.8);
+  font-size: 16px;
+  font-family: 'Tahoma';
+  font-weight: 700;
+}
+.wrapper-selects .global-field select:focus {
+  outline: none;
+}
+.wrapper-selects .global-field:after {
+  width: 35px;
+  height: 10px;
+  position: absolute;
+  bottom: 31px;
+  right: 2px;
+  padding: 15px 0 0;
+  pointer-events: none;
+  font-family: 'FontAwesome';
+  font-size: 14px;
+  content: "\f078";
+  color: white;
+  background: transparent;
+  z-index: 1;
+  -webkit-appearance: none;
+}
+.wrapper-panels {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.wrapper-panels .panel.panel-default {
+  margin-bottom: 0px;
+  background: rgba(24, 32, 40, 0.7);
+  border: 0px;
+  border-radius: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 0px;
+}
+.wrapper-panels .panel.panel-default .panel-heading {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 0px;
+  border: 0px;
+}
+.wrapper-panels .panel.panel-default .panel-heading h4 a {
+  color: white;
+}
+.wrapper-panels .panel.panel-default .panel-heading h4 a:hover,
+.wrapper-panels .panel.panel-default .panel-heading h4 a:focus {
+  text-decoration: none;
+}
+.wrapper-panels .panel.panel-default .panel-body {
+  color: white;
+}
+.description {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: block;
+  color: white;
+  text-align: center;
+}
+.wrapper-select-compare:after {
+  width: 35px;
+  height: 10px;
+  position: absolute;
+  bottom: 31px;
+  right: 2px;
+  padding: 15px 0 0;
+  pointer-events: none;
+  font-family: 'FontAwesome';
+  font-size: 14px;
+  content: "\f078";
+  color: white;
+  background: transparent;
+  z-index: 1;
+  -webkit-appearance: none;
+}
+.versus {
+  display: block;
+  max-width: 100%;
+}
+.versus img {
+  height: 200px;
+}
+.compared div {
+  color: white;
+  font-size: 18px;
+  font-family: 'Tahoma';
+}
+.wraper-property .title-property {
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Tahoma';
+  margin-bottom: 5px;
+}
+.wraper-property .wrapper-progress.progress {
+  border: 0px;
+  border-radius: 0px;
+  background: rgba(255, 255, 255, 0.5);
+}
+.wraper-property .wrapper-progress.progress .progress-bar-lose {
+  background: #961414;
+}
+.wraper-property .wrapper-progress.progress .progress-bar-win {
+  background: #178331;
+}
+.wraper-property .wrapper-progress.progress .separator {
+  width: 3px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 50%;
+}
+.wraper-property .wrapper-progress.progress span {
+  padding: 0px 10px;
+}
+/*# sourceMappingURL=style.css.map */

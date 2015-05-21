@@ -1,0 +1,6 @@
+D:\GitHub\CarCharacteristic\CarCharacteristic\CarCharacteristic\bin\CarCharacteristic.dll.config
+D:\GitHub\CarCharacteristic\CarCharacteristic\CarCharacteristic\bin\CarCharacteristic.dll
+D:\GitHub\CarCharacteristic\CarCharacteristic\CarCharacteristic\bin\CarCharacteristic.pdb
+D:\GitHub\CarCharacteristic\CarCharacteristic\CarCharacteristic\obj\Debug\CarCharacteristic.csprojResolveAssemblyReference.cache
+D:\GitHub\CarCharacteristic\CarCharacteristic\CarCharacteristic\obj\Debug\CarCharacteristic.dll
+D:\GitHub\CarCharacteristic\CarCharacteristic\CarCharacteristic\obj\Debug\CarCharacteristic.pdb
